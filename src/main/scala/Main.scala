@@ -28,6 +28,7 @@ object Main extends App {
   counts.filter(item => item._1.length > 1)
         .sortBy { case (_, value) => -value }
         .map { case (key, value) => Array(key, value).mkString(",") }
+        .coalesce(1)
         .saveAsTextFile("output")
 
   Console.println("Done.")
