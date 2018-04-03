@@ -12,5 +12,6 @@ libraryDependencies ++= Seq(
   "org.apache.solr" % "solr-core" % "1.4.1",
   "org.apache.lucene" % "lucene-core" % "3.0.3",
   "org.wltea.ik-analyzer" % "ik-analyzer" % "3.2.8",
-  "org.xerial" % "sqlite-jdbc" % "3.20.0"
+  "org.xerial" % "sqlite-jdbc" % "3.20.0",
+  "com.microsoft.sqlserver" % "mssql-jdbc" % "6.4.0.jre8"
 )
