@@ -1,5 +1,5 @@
 Using Spark and IK analyzer to count the words and visualize it with PowerBI.
-Blog: https://johnnyqian.net/blog/spark-word-count-with-powerbi/
+Blog: https://johnnyqian.net/blog/spark-word-count-with-powerbi.html
 
 # 金庸射雕三部曲词频统计
 
